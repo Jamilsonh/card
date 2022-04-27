@@ -51,23 +51,23 @@ function App() {
                 </ListPokemon>
                 <ListPokemon>
                   <ImagemNav src={CabecaGyarados}></ImagemNav>
-                  <span>GYARADOS</span>
+                  <span>PIKACHU</span>
                 </ListPokemon>
                 <ListPokemon>
                   <ImagemNav src={CabecaGengar}></ImagemNav>
-                  <span>GENGAR</span>
+                  <span>PIKACHU</span>
                 </ListPokemon>
                 <ListPokemon>
                   <ImagemNav src={CabecaDragonite}></ImagemNav>
-                  <span>DRAGONITE</span>
+                  <span>PIKACHU</span>
                 </ListPokemon>
                 <ListPokemon>
                   <ImagemNav src={CabecaCharmander}></ImagemNav>
-                  <span>CHARMANDER</span>
+                  <span>PIKACHU</span>
                 </ListPokemon>
                 <ListPokemon>
                   <ImagemNav src={CabecaBulbasaur}></ImagemNav>
-                  <span>BULBASAUR</span>
+                  <span>PIKACHU</span>
                 </ListPokemon>
               </Listagem>
             </nav>

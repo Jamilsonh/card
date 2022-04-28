@@ -14,7 +14,12 @@ function App() {
             <Menu/>
           </PokeDex>
         </Main>
-        
+        <Routes>
+          <Route path="/" element={<Menu/>} />
+          <Route path="/Charmander" element={<Charmander/>} />
+        </Routes>
+        <Link to ="/">Home</Link>
+        <Link to ="/Charmander">Charmander</Link>
       </Body>
     </>
   );

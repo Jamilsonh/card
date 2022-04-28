@@ -1,8 +1,6 @@
-import { Body, Main, PokeDex } from "./Styles";
+import { Body, ImagemNav, ListPokemon, Listagem, Main, PokeDex } from "./Styles";
 import Header from "./Header";
-import Charmander from "./Charmander";
 import Menu from "./Menu";
-import { Routes, Link, Route} from "react-router-dom";
 
 function App() {
   return (
@@ -11,10 +9,9 @@ function App() {
         <Main>
           <PokeDex>
             <Header/>
-            <Menu/>
+              <Menu/>
           </PokeDex>
         </Main>
-        
       </Body>
     </>
   );

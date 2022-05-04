@@ -8,7 +8,6 @@ import Bulbasaur from "./Telas/Bulbasaur";
 import Dragonite from "./Telas/Dragonite";
 import Gengar from "./Telas/Gengar";
 import Gyarados from "./Telas/Gyarados";
-import Pikachu from "./Telas/Pikachu";
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
         <Main>
           <PokeDex>
             <Routes>
-            <Route path="/" element={<Pikachu />} />
+            <Route path="/" element={<Header />} />
             <Route path="Charmander" element={<Charmander />} />
             <Route path="Bulbasaur" element={<Bulbasaur />} />
             <Route path="Dragonite" element={<Dragonite />} />

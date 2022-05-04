@@ -1,18 +1,18 @@
 import { Cartao, CartaoTopo, Detalhes, InfromacoesH3, InformacoesUlLi, Habilidades, HabilidadesUl, Imagem, Infromacoes, Nome, Status, Tipo } from "./Styles";
-import Pica from './Images/pikachu.png'
+import Bulba from './Images/bulbasaur.png'
 
-export default function Charmander() {
+export default function Bulbasaur() {
     return (
         <>
             <Cartao>
               <CartaoTopo>
                 <Detalhes>
-                  <Nome><h2>Charmander</h2></Nome>
-                  <span>#001</span>
+                  <Nome><h2>Bulbasaur</h2></Nome>
+                  <span>#002</span>
                 </Detalhes>
 
-                <Tipo><span>elétrico</span></Tipo>
-                <Imagem src={Pica}></Imagem>
+                <Tipo><span>Fogo</span></Tipo>
+                <Imagem src={Bulba}></Imagem>
               </CartaoTopo>
 
               <Infromacoes>
@@ -27,8 +27,8 @@ export default function Charmander() {
 
                 <Habilidades>
                 <InfromacoesH3>Habilidades</InfromacoesH3>
-                      <HabilidadesUl>Choque do trovão</HabilidadesUl>
-                      <HabilidadesUl>Cabeçada</HabilidadesUl>
+                      <HabilidadesUl>Carga de fogo</HabilidadesUl>
+                      <HabilidadesUl>Estouro de chama</HabilidadesUl>
                 </Habilidades>
               </Infromacoes>
             </Cartao>

@@ -7,7 +7,7 @@ import CabecaCharmander from './Images/cabeca-charmander.png'
 import CabecaBulbasaur from './Images/cabeca-bulbasaur.png'
 import { Link, Route, Routes } from "react-router-dom";
 import Header from "./Header";
-import Charmander from "./Telas/Charmander";
+import Charmander from "./Charmander";
 
 export default function Menu() {
     return (
@@ -16,27 +16,27 @@ export default function Menu() {
                 <Listagem>
                   <ListPokemon>
                     <ImagemNav src={CabecaPikachu}></ImagemNav>
-                    <Link to="/"><span>PIKACHU</span></Link>
+                    <Link to="/Charmander"><span>PIKACHU</span></Link>
                   </ListPokemon>
                   <ListPokemon>
                     <ImagemNav src={CabecaGyarados}></ImagemNav>
-                    <Link to ="/Gyarados"><span>GYARADOS</span></Link>
+                    <span>GYARADOS</span>
                   </ListPokemon>
                   <ListPokemon>
                     <ImagemNav src={CabecaGengar}></ImagemNav>
-                    <Link to ="/Gengar"><span>GENGAR</span></Link>
+                    <span>GENGAR</span>
                   </ListPokemon>
                   <ListPokemon>
                     <ImagemNav src={CabecaDragonite}></ImagemNav>
-                    <Link to ="/Dragonite"><span>Dragonite</span></Link>
+                    <span>DRAGONITE</span>
                   </ListPokemon>
                   <ListPokemon>
                     <ImagemNav src={CabecaCharmander}></ImagemNav>
-                    <Link to ="/Charmander"><span>Charmander</span></Link>
+                    <span>CHARMANDER</span>
                   </ListPokemon>
                   <ListPokemon>
                     <ImagemNav src={CabecaBulbasaur}></ImagemNav>
-                    <Link to ="/Bulbasaur"><span>Bulbsaur</span></Link>
+                    <span>BULBASAUR</span>
                   </ListPokemon>
                 </Listagem>
                 

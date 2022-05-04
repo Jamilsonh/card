@@ -16,11 +16,11 @@ export default function Menu() {
                 <Listagem>
                   <ListPokemon>
                     <ImagemNav src={CabecaPikachu}></ImagemNav>
-                    <Link to="/"><span>PIKACHU</span></Link>
+                    <Link to="/Charmander"><span>PIKACHU</span></Link>
                   </ListPokemon>
                   <ListPokemon>
                     <ImagemNav src={CabecaGyarados}></ImagemNav>
-                    <Link to ="/Gyarados"><span>GYARADOS</span></Link>
+                    <Link to ="/Header"><span>GYARADOS</span></Link>
                   </ListPokemon>
                   <ListPokemon>
                     <ImagemNav src={CabecaGengar}></ImagemNav>

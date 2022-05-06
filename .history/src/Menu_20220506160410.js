@@ -14,7 +14,6 @@ const LinkMenu = styled(NavLink)`
   width: 200px;
   text-decoration: none;
   color: black;
-  padding-left: 10px;
 `
 export default function Menu() {
     return (
@@ -39,17 +38,17 @@ export default function Menu() {
 
                   <ListPokemon to ="/Dragonite">
                     <ImagemNav src={CabecaDragonite}></ImagemNav>
-                    <LinkMenu to ="/Dragonite"><span>DRAGONITE</span></LinkMenu>
+                    <LinkMenu to ="/Dragonite"><span>Dragonite</span></LinkMenu>
                   </ListPokemon>
 
                   <ListPokemon to ="/Charmander">
                     <ImagemNav src={CabecaCharmander}></ImagemNav>
-                    <LinkMenu to ="/Charmander"><span>CHARMADER</span></LinkMenu>
+                    <LinkMenu to ="/Charmander"><span>Charmander</span></LinkMenu>
                   </ListPokemon>
 
                   <ListPokemon to ="/Bulbasaur">
                     <ImagemNav src={CabecaBulbasaur}></ImagemNav>
-                    <LinkMenu to ="/Bulbasaur"><span>BULBASAUR</span></LinkMenu>
+                    <LinkMenu to ="/Bulbasaur"><span>Bulbsaur</span></LinkMenu>
                   </ListPokemon>
 
                 </Listagem>

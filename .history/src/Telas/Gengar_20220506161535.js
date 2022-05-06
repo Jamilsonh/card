@@ -1,18 +1,18 @@
-import { Cartao, CartaoTopo, Detalhes, InfromacoesH3, InformacoesUlLi, Habilidades, HabilidadesUl, Imagem, Infromacoes, Nome, Status, Tipo } from "../Styles";
-import PikachuImage from '../Images/pikachu.png'
+import { Cartao, CartaoTrevas, CartaoTopo, Detalhes, InfromacoesH3, InformacoesUlLi, Habilidades, HabilidadesUl, Imagem, Infromacoes, Nome, Status, Tipo } from "../Styles";
+import GengarImage from '../Images/gengar.png'
 
-export default function Pikachu() {
+export default function Gengar() {
     return (
         <>
-            <Cartao>
+            <CartaoTrevas>
               <CartaoTopo>
                 <Detalhes>
-                  <Nome><h2>Pikachu</h2></Nome>
-                  <span>#001</span>
+                  <Nome><h2>Gengar</h2></Nome>
+                  <span>#005</span>
                 </Detalhes>
 
-                <Tipo><span>Elétrico</span></Tipo>
-                <Imagem src={PikachuImage}></Imagem>
+                <Tipo><span>Fogo</span></Tipo>
+                <Imagem src={GengarImage}></Imagem>
               </CartaoTopo>
 
               <Infromacoes>
@@ -27,11 +27,11 @@ export default function Pikachu() {
 
                 <Habilidades>
                 <InfromacoesH3>Habilidades</InfromacoesH3>
-                      <HabilidadesUl>Choque do trovão</HabilidadesUl>
-                      <HabilidadesUl>Investida</HabilidadesUl>
+                      <HabilidadesUl>Carga de fogo</HabilidadesUl>
+                      <HabilidadesUl>Estouro de chama</HabilidadesUl>
                 </Habilidades>
               </Infromacoes>
-            </Cartao>
+            </CartaoTrevas>
         </>
     )
 }

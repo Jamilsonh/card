@@ -27,8 +27,8 @@ export default function Dragonite() {
 
                 <Habilidades>
                 <InfromacoesH3>Habilidades</InfromacoesH3>
-                      <HabilidadesUl>Rabada</HabilidadesUl>
-                      <HabilidadesUl>Ataque Psiquico</HabilidadesUl>
+                      <HabilidadesUl>Carga de fogo</HabilidadesUl>
+                      <HabilidadesUl>Estouro de chama</HabilidadesUl>
                 </Habilidades>
               </Infromacoes>
             </CartaoDragao>

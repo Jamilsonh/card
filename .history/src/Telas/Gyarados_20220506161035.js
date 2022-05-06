@@ -1,10 +1,10 @@
-import { Cartao, CartaoTopo, CartaoAgua, Detalhes, InfromacoesH3, InformacoesUlLi, Habilidades, HabilidadesUl, Imagem, Infromacoes, Nome, Status, Tipo } from "../Styles";
+import { Cartao, CartaoTopo, Detalhes, InfromacoesH3, InformacoesUlLi, Habilidades, HabilidadesUl, Imagem, Infromacoes, Nome, Status, Tipo } from "../Styles";
 import GyaradosImage from '../Images/gyarados.png'
 
 export default function Gyarados() {
     return (
         <>
-            <CartaoAgua>
+            <Cartao>
               <CartaoTopo>
                 <Detalhes>
                   <Nome><h2>Gyarados</h2></Nome>
@@ -31,7 +31,7 @@ export default function Gyarados() {
                       <HabilidadesUl>Tsunami</HabilidadesUl>
                 </Habilidades>
               </Infromacoes>
-            </CartaoAgua>
+            </Cartao>
         </>
     )
 }

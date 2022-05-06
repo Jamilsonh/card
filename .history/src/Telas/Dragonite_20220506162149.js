@@ -1,18 +1,18 @@
-import { Cartao, CartaoTopo, Detalhes, InfromacoesH3, InformacoesUlLi, Habilidades, HabilidadesUl, Imagem, Infromacoes, Nome, Status, Tipo } from "../Styles";
-import PikachuImage from '../Images/pikachu.png'
+import { CartaoDragao, CartaoTopo, Detalhes, InfromacoesH3, InformacoesUlLi, Habilidades, HabilidadesUl, Imagem, Infromacoes, Nome, Status, Tipo } from "../Styles";
+import DragoniteImage from '../Images/dragonite.png'
 
-export default function Pikachu() {
+export default function Dragonite() {
     return (
         <>
-            <Cartao>
+            <CartaoDragao>
               <CartaoTopo>
                 <Detalhes>
-                  <Nome><h2>Pikachu</h2></Nome>
-                  <span>#001</span>
+                  <Nome><h2>Dragonite</h2></Nome>
+                  <span>#003</span>
                 </Detalhes>
 
-                <Tipo><span>Elétrico</span></Tipo>
-                <Imagem src={PikachuImage}></Imagem>
+                <Tipo><span>Fogo</span></Tipo>
+                <Imagem src={DragoniteImage}></Imagem>
               </CartaoTopo>
 
               <Infromacoes>
@@ -27,11 +27,11 @@ export default function Pikachu() {
 
                 <Habilidades>
                 <InfromacoesH3>Habilidades</InfromacoesH3>
-                      <HabilidadesUl>Choque do trovão</HabilidadesUl>
-                      <HabilidadesUl>Investida</HabilidadesUl>
+                      <HabilidadesUl>Carga de fogo</HabilidadesUl>
+                      <HabilidadesUl>Estouro de chama</HabilidadesUl>
                 </Habilidades>
               </Infromacoes>
-            </Cartao>
+            </CartaoDragao>
         </>
     )
 }

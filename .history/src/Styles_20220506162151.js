@@ -67,18 +67,6 @@ export const CartaoDragao = styled.div`
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
 `
-export const CartaoFogo = styled.div`
-    display: block;
-    background-color: #f54f4f;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-`
-export const CartaoGrama = styled.div`
-    display: block;
-    background-color: #49D0B0;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-`
 
 
 export const CartaoTopo = styled.div`

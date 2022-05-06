@@ -5,53 +5,44 @@ import CabecaGengar from './Images/cabeca-gengar.png'
 import CabecaDragonite from './Images/cabeca-dragonite.png'
 import CabecaCharmander from './Images/cabeca-charmander.png'
 import CabecaBulbasaur from './Images/cabeca-bulbasaur.png'
-import { Link, Route, Routes, NavLink } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import styled from "styled-components";
 import Header from "./Header";
 import Charmander from "./Telas/Charmander";
 
-const LinkMenu = styled(NavLink)`
-  width: 200px;
+const LinkMenu = styled(Link)`
   text-decoration: none;
-  color: black;
-  padding-left: 10px;
 `
+
 export default function Menu() {
     return (
         <>
             <nav>
                 <Listagem>
-                
-                <ListPokemon to="/">
+                  <ListPokemon>
                     <ImagemNav src={CabecaPikachu}></ImagemNav>
                     <LinkMenu to="/"><span>PIKACHU</span></LinkMenu>
-                </ListPokemon>
-                  
-                  <ListPokemon to="/Gyarados">
+                  </ListPokemon>
+                  <ListPokemon>
                     <ImagemNav src={CabecaGyarados}></ImagemNav>
-                    <LinkMenu to ="/Gyarados"><span>GYARADOS</span></LinkMenu>
+                    <Link to ="/Gyarados"><span>GYARADOS</span></Link>
                   </ListPokemon>
-                  
-                  <ListPokemon to ="/Gengar">
+                  <ListPokemon>
                     <ImagemNav src={CabecaGengar}></ImagemNav>
-                    <LinkMenu to ="/Gengar"><span>GENGAR</span></LinkMenu>
+                    <Link to ="/Gengar"><span>GENGAR</span></Link>
                   </ListPokemon>
-
-                  <ListPokemon to ="/Dragonite">
+                  <ListPokemon>
                     <ImagemNav src={CabecaDragonite}></ImagemNav>
-                    <LinkMenu to ="/Dragonite"><span>DRAGONITE</span></LinkMenu>
+                    <Link to ="/Dragonite"><span>Dragonite</span></Link>
                   </ListPokemon>
-
-                  <ListPokemon to ="/Charmander">
+                  <ListPokemon>
                     <ImagemNav src={CabecaCharmander}></ImagemNav>
-                    <LinkMenu to ="/Charmander"><span>CHARMADER</span></LinkMenu>
+                    <Link to ="/Charmander"><span>Charmander</span></Link>
                   </ListPokemon>
-
-                  <ListPokemon to ="/Bulbasaur">
+                  <ListPokemon>
                     <ImagemNav src={CabecaBulbasaur}></ImagemNav>
-                    <LinkMenu to ="/Bulbasaur"><span>BULBASAUR</span></LinkMenu>
+                    <Link to ="/Bulbasaur"><span>Bulbsaur</span></Link>
                   </ListPokemon>
-
                 </Listagem>
                 
               </nav>

@@ -1,18 +1,18 @@
-import { Cartao, CartaoTopo, Detalhes, InfromacoesH3, InformacoesUlLi, Habilidades, HabilidadesUl, Imagem, Infromacoes, Nome, Status, Tipo } from "../Styles";
-import PikachuImage from '../Images/pikachu.png'
+import { CartaoFogo, CartaoTopo, Detalhes, InfromacoesH3, InformacoesUlLi, Habilidades, HabilidadesUl, Imagem, Infromacoes, Nome, Status, Tipo } from "../Styles";
+import Charmand from '../Images/charmander.png'
 
-export default function Pikachu() {
+export default function Charmander() {
     return (
         <>
-            <Cartao>
+            <CartaoFogo>
               <CartaoTopo>
                 <Detalhes>
-                  <Nome><h2>Pikachu</h2></Nome>
-                  <span>#001</span>
+                  <Nome><h2>Charmander</h2></Nome>
+                  <span>#003</span>
                 </Detalhes>
 
-                <Tipo><span>Elétrico</span></Tipo>
-                <Imagem src={PikachuImage}></Imagem>
+                <Tipo><span>Fogo</span></Tipo>
+                <Imagem src={Charmand}></Imagem>
               </CartaoTopo>
 
               <Infromacoes>
@@ -27,11 +27,11 @@ export default function Pikachu() {
 
                 <Habilidades>
                 <InfromacoesH3>Habilidades</InfromacoesH3>
-                      <HabilidadesUl>Choque do trovão</HabilidadesUl>
-                      <HabilidadesUl>Investida</HabilidadesUl>
+                      <HabilidadesUl>Carga de fogo</HabilidadesUl>
+                      <HabilidadesUl>Estouro de chama</HabilidadesUl>
                 </Habilidades>
               </Infromacoes>
-            </Cartao>
+            </CartaoFogo>
         </>
     )
 }

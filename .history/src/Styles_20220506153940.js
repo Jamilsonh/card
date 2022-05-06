@@ -1,5 +1,5 @@
-import styled from "styled-components";
 import { NavLink } from "react-router-dom";
+import styled from "styled-components";
 
 export const Card = styled.div`
     width: 550px;
@@ -46,40 +46,6 @@ export const Cartao = styled.div`
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
 `
-
-export const CartaoAgua = styled.div`
-    display: block;
-    background-color: #76BEFE;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-`
-
-export const CartaoTrevas = styled.div`
-    display: block;
-    background-color: #BA68C8;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-`
-
-export const CartaoDragao = styled.div`
-    display: block;
-    background-color: #f1a541;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-`
-export const CartaoFogo = styled.div`
-    display: block;
-    background-color: #f54f4f;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-`
-export const CartaoGrama = styled.div`
-    display: block;
-    background-color: #49D0B0;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-`
-
 
 export const CartaoTopo = styled.div`
     padding: 30px 40px 0;
@@ -187,11 +153,10 @@ export const ListPokemon = styled(NavLink)`
     min-height: 70px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 0.15s ease-in-out;
-    text-decoration: none;
-
     &.active {
-        background-color: red;
+        background-color: white ;
     }
+    
 `
 
 export const ImagemNav = styled.img`
